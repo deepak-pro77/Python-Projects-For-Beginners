@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "e535f4f0a8065af41b3ead28"   # remove space
+API_KEY = "YOURAPIKEY"   # remove space
 BASE_URL = f"https://v6.exchangerate-api.com/v6/{API_KEY}"
 
 VALID_CURRENCIES = ["USD", "EUR", "CAD", "AUD", "PKR", "INR"]
@@ -31,3 +31,4 @@ def convert_currency():
 
 
 convert_currency()
+

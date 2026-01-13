@@ -2,7 +2,7 @@
 import requests
 
 
-API_KEY = "faf9daa4056e8a27512f8703cb672e3f"
+API_KEY = "YOURAPIKEY"
 
 
 while True:
@@ -30,3 +30,4 @@ while True:
     print(f"🌡 Temperature: {temp}°C")
     print(f"📝 Condition: {desc}")
     print(f"💧 Humidity: {humidity}%\n")
+
